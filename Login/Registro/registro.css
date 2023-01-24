@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: rgb(0, 108, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 108, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(0, 108, 255, 1) 100%
+  );
+  padding: 0;
+  margin: 0;
+}
+.cod-postal {
+  margin-left: 2rem;
+}
+.Telefono {
+  margin-left: 1rem;
+}
+
+.card {
+  font-family: "Nunito";
+  background-image: url(background-registro.png);
+  margin-top: 10px;
+}
