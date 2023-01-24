@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  /* background: rgb(232, 255, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(232, 255, 0, 1) 15%,
+    rgba(253, 115, 29, 1) 50%,
+    rgba(250, 255, 0, 1) 85%
+  ); */
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+h1 {
+  font-family: Dosis;
+  text-align: center;
+}
+.carousel {
+  margin: 1rem;
+}
+.publicidad {
+  height: 200px;
+}
+footer {
+  background-color: #343a40;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-nav {
+  width: 1rem;
+  margin-right: 5px;
+}
