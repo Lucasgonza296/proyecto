@@ -22,21 +22,6 @@ nav {
 .Logo {
   width: 100px;
 }
-h1 {
-  font-family: "Dosis";
-  text-align: center;
-}
-
-.publicidad {
-  height: 200px;
-}
-footer {
-  background-color: #343a40;
-  height: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .icon-nav {
   width: 1.3rem;
   margin-right: 5px;
@@ -45,6 +30,12 @@ footer {
   width: 1.4rem;
 }
 h4 {
-  text-align: center;
   font-family: "Dosis";
+  margin: 1rem;
+}
+h6 {
+  margin-top: 2rem;
+}
+.texto-añadido {
+  margin-top: 2rem;
 }
