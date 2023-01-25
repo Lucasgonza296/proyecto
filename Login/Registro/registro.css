@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
 
 * {
   padding: 0;
@@ -10,11 +11,16 @@ body {
     90deg,
     rgba(0, 108, 255, 1) 0%,
     rgba(255, 255, 255, 1) 50%,
-    rgba(255, 255, 255, 1) 50%,
     rgba(0, 108, 255, 1) 100%
   );
-  padding: 0;
-  margin: 0;
+  font-family: "Dosis";
+}
+nav {
+  font-family: "Dosis";
+  font-size: 1.3rem;
+}
+.Logo {
+  width: 100px;
 }
 .cod-postal {
   margin-left: 2rem;
@@ -27,4 +33,12 @@ body {
   font-family: "Nunito";
   background-image: url(background-registro.png);
   margin-top: 10px;
+}
+.icon-nav {
+  width: 1.3rem;
+  margin-right: 5px;
+}
+.icon-login {
+  width: 1.3rem;
+  margin-right: 5px;
 }

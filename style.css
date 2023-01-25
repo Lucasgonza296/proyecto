@@ -38,8 +38,11 @@ footer {
   align-items: center;
 }
 .icon-nav {
-  width: 1rem;
+  width: 1.3rem;
   margin-right: 5px;
+}
+.icon-login {
+  width: 1.4rem;
 }
 h4 {
   text-align: center;
