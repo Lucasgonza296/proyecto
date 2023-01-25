@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Contacto.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/Imagenes/Navbar/Logo-nav-2.png" alt="" class="Logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="">
+                <img src="/Imagenes/Navbar/icon-inicio.png" class="icon-nav" />
+                Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/Carrito/Carrito.html"
+              >
+                <img src="/Imagenes/Navbar/icon-carrito.png" class="icon-nav" />
+                Carrito</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/Nosotros/Nosotros.html"
+                ><img
+                  src="/Imagenes/Navbar/icon-nosotros.png"
+                  class="icon-nav"
+                />
+                Nosotros</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">
+                <img src="/Imagenes/Navbar/icon-contact.png" class="icon-nav" />
+                Contacto</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Login/Login.html"
+                ><img
+                  src="/Imagenes/Navbar/icon-login.png"
+                  alt=""
+                  class="icon-login"
+                />
+                Iniciar sesion</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar"
+              aria-label="Buscar"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="row justify-content-center gap-3 gx-0">
+      <div class="col-9 col-sm-6 col-md-4 col-lg-3" style="width: 18rem">
+        <div class="card-body text-center">
+          <h4 class="card-title Contactanos">Contactanos</h4>
+          <br />
+          <label class="label-form">Nombre y apellido</label>
+          <input type="text " class="form-control" />
+          <label class="label-form">Correo electronico</label>
+          <input type="text" class="form-control" />
+          <label class="label-form">Telefono</label>
+          <input type="tel" class="form-control" maxlength="12" minlength="4" />
+          <br />
+          <h6>¿En que podemos ayudarle?</h6>
+
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            class="form-control text-center"
+            placeholder="Escriba aqui"
+            maxlength="256"
+            minlength="4"
+          ></textarea>
+
+          <a href="/Error 404/Error404.html" class="btn btn-primary m-3"
+            >Enviar</a
+          >
+        </div>
+      </div>
+      <h4 class="text-center Visitanos">Visitanos</h4>
+      <p class="text-center">Av Siempreviva 742</p>
+      <div class="row justify-content-center gap-3 gx-0">
+        <div class="row col-xs-3 col-sm-4 text-center">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.10237077753!2d-65.20939048549235!3d-26.8366960965006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1674666693479!5m2!1ses-419!2sar"
+            width="250"
+            height="150"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="row border border-4 gx-0"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

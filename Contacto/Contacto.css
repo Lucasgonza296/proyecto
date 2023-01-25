@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(0, 108, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 108, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(0, 108, 255, 1) 100%
+  );
+  font-family: "Dosis";
+}
+nav {
+  font-family: "Dosis";
+  font-size: 1.3rem;
+}
+.Logo {
+  width: 100px;
+}
+.icon-nav {
+  width: 1.3rem;
+  margin-right: 5px;
+}
+.icon-login {
+  width: 1.4rem;
+}
+textarea {
+  resize: none;
+}
+.texto {
+  margin-top: -5rem;
+}
+.Visitanos {
+  font-family: "Prompt";
+  margin-bottom: -10px;
+}
+.Contactanos {
+  margin: 1rem;
+}
+p {
+  margin-bottom: -1rem;
+}
